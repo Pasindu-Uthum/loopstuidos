@@ -13,6 +13,7 @@
   background-image: url("images/desktop/image-hero.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  overflow: hidden;
 }
 
 .banner nav ul {
@@ -72,6 +73,7 @@
 .vr {
   padding: 100px 50px;
   position: relative;
+  overflow: hidden;
 }
 
 .vr .content {
