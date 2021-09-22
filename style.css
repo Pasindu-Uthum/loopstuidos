@@ -1,0 +1,220 @@
+@import url("https://fonts.googleapis.com/css2?family=Varela+Round&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alata&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.banner {
+  height: 70vh;
+  background-image: url("images/desktop/image-hero.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.banner nav ul {
+  list-style-type: none;
+  width: 100%;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+  display: block;
+  background-color: transparent;
+}
+
+.banner nav ul li {
+  float: right;
+}
+
+.banner nav ul li:first-child {
+  float: left;
+}
+
+.banner nav ul li:first-child a {
+  font-family: "Varela Round", sans-serif;
+  font-weight: bolder;
+  font-size: 24px;
+}
+
+.banner nav ul li:first-child a:hover {
+  text-decoration: none;
+}
+
+.banner nav ul li a {
+  text-decoration: none;
+  color: black;
+  display: inline-block;
+  padding: 16px;
+  font-size: 16px;
+  font-family: "Alata", sans-serif;
+  color: white;
+}
+
+.banner nav ul li a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.banner .article {
+  border: 3px solid white;
+  padding: 20px;
+  color: white;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 50px;
+  width: 450px;
+  font-weight: lighter;
+  margin: 100px 0 0 50px;
+}
+
+.vr {
+  padding: 100px 50px;
+  position: relative;
+}
+
+.vr .content {
+  padding: 0 200px;
+}
+
+.vr .content .description {
+  width: 550px;
+  padding: 50px;
+  background-color: white;
+  position: absolute;
+  bottom: 0;
+  left: 750px;
+  margin: 100px 50px;
+}
+
+.vr .content .description h1 {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 50px;
+  font-weight: lighter;
+}
+
+.vr .content .description p {
+  padding-top: 20px;
+  font-family: "Alata", sans-serif;
+  opacity: 0.8;
+}
+
+.creations {
+  padding: 50px;
+}
+
+.creations .heading {
+  padding-bottom: 50px;
+}
+
+.creations .heading h1 {
+  float: left;
+  font-family: "Josefin Sans", sans-serif;
+  padding-left: 20px;
+}
+
+.creations .heading button {
+  float: right;
+  font-family: "Alata", sans-serif;
+  display: block;
+  padding: 5px 15px;
+  background-color: white;
+  border: 1px solid black;
+  margin-right: 30px;
+}
+
+.creations .heading button:hover {
+  color: white;
+  background-color: black;
+  cursor: pointer;
+}
+
+.creations .heading::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.creations .image-grid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.creations .image-grid .image {
+  -webkit-box-flex: 25%;
+      -ms-flex: 25%;
+          flex: 25%;
+  min-width: 25%;
+  padding: 30px;
+  position: relative;
+}
+
+.creations .image-grid .image img {
+  width: 100%;
+}
+
+.creations .image-grid .image img:hover {
+  opacity: 0.6;
+  cursor: pointer;
+}
+
+.creations .image-grid .image p {
+  position: absolute;
+  bottom: 50px;
+  left: 130px;
+  color: white;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 22px;
+}
+
+.footer {
+  background-color: black;
+  width: 100%;
+  color: white;
+  padding: 40px;
+}
+
+.footer h2 {
+  font-family: "Varela Round", sans-serif;
+  padding-bottom: 20px;
+  padding-left: 10px;
+}
+
+.footer span {
+  display: inline-block;
+  padding: 10px;
+  font-family: "Alata", sans-serif;
+}
+
+.footer span:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.footer .social-media {
+  float: right;
+  text-align: right;
+}
+
+.footer .social-media i {
+  padding: 10px;
+  font-size: 20px;
+}
+
+.footer .social-media i:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.footer .social-media p {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  opacity: 0.6;
+  padding-top: 10px;
+}
+/*# sourceMappingURL=style.css.map */
